@@ -110,6 +110,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named listing_2.8
+
+# Build rule for target.
+listing_2.8: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 listing_2.8
+.PHONY : listing_2.8
+
+# fast build rule for target.
+listing_2.8/fast:
+	$(MAKE) -f CMakeFiles\listing_2.8.dir\build.make CMakeFiles/listing_2.8.dir/build
+.PHONY : listing_2.8/fast
+
+#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -123,6 +136,19 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
+# Target rules for targets named listing_2.6
+
+# Build rule for target.
+listing_2.6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 listing_2.6
+.PHONY : listing_2.6
+
+# fast build rule for target.
+listing_2.6/fast:
+	$(MAKE) -f CMakeFiles\listing_2.6.dir\build.make CMakeFiles/listing_2.6.dir/build
+.PHONY : listing_2.6/fast
+
+#=============================================================================
 # Target rules for targets named listing_1.1
 
 # Build rule for target.
@@ -134,6 +160,19 @@ listing_1.1: cmake_check_build_system
 listing_1.1/fast:
 	$(MAKE) -f CMakeFiles\listing_1.1.dir\build.make CMakeFiles/listing_1.1.dir/build
 .PHONY : listing_1.1/fast
+
+#=============================================================================
+# Target rules for targets named listing_2.5
+
+# Build rule for target.
+listing_2.5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 listing_2.5
+.PHONY : listing_2.5
+
+# fast build rule for target.
+listing_2.5/fast:
+	$(MAKE) -f CMakeFiles\listing_2.5.dir\build.make CMakeFiles/listing_2.5.dir/build
+.PHONY : listing_2.5/fast
 
 concurrency/manning/listings/listing_1.1.obj: concurrency/manning/listings/listing_1.1.cpp.obj
 
@@ -161,6 +200,87 @@ concurrency/manning/listings/listing_1.1.s: concurrency/manning/listings/listing
 concurrency/manning/listings/listing_1.1.cpp.s:
 	$(MAKE) -f CMakeFiles\listing_1.1.dir\build.make CMakeFiles/listing_1.1.dir/concurrency/manning/listings/listing_1.1.cpp.s
 .PHONY : concurrency/manning/listings/listing_1.1.cpp.s
+
+concurrency/manning/listings/listing_2.5.obj: concurrency/manning/listings/listing_2.5.cpp.obj
+
+.PHONY : concurrency/manning/listings/listing_2.5.obj
+
+# target to build an object file
+concurrency/manning/listings/listing_2.5.cpp.obj:
+	$(MAKE) -f CMakeFiles\listing_2.5.dir\build.make CMakeFiles/listing_2.5.dir/concurrency/manning/listings/listing_2.5.cpp.obj
+.PHONY : concurrency/manning/listings/listing_2.5.cpp.obj
+
+concurrency/manning/listings/listing_2.5.i: concurrency/manning/listings/listing_2.5.cpp.i
+
+.PHONY : concurrency/manning/listings/listing_2.5.i
+
+# target to preprocess a source file
+concurrency/manning/listings/listing_2.5.cpp.i:
+	$(MAKE) -f CMakeFiles\listing_2.5.dir\build.make CMakeFiles/listing_2.5.dir/concurrency/manning/listings/listing_2.5.cpp.i
+.PHONY : concurrency/manning/listings/listing_2.5.cpp.i
+
+concurrency/manning/listings/listing_2.5.s: concurrency/manning/listings/listing_2.5.cpp.s
+
+.PHONY : concurrency/manning/listings/listing_2.5.s
+
+# target to generate assembly for a file
+concurrency/manning/listings/listing_2.5.cpp.s:
+	$(MAKE) -f CMakeFiles\listing_2.5.dir\build.make CMakeFiles/listing_2.5.dir/concurrency/manning/listings/listing_2.5.cpp.s
+.PHONY : concurrency/manning/listings/listing_2.5.cpp.s
+
+concurrency/manning/listings/listing_2.6.obj: concurrency/manning/listings/listing_2.6.cpp.obj
+
+.PHONY : concurrency/manning/listings/listing_2.6.obj
+
+# target to build an object file
+concurrency/manning/listings/listing_2.6.cpp.obj:
+	$(MAKE) -f CMakeFiles\listing_2.6.dir\build.make CMakeFiles/listing_2.6.dir/concurrency/manning/listings/listing_2.6.cpp.obj
+.PHONY : concurrency/manning/listings/listing_2.6.cpp.obj
+
+concurrency/manning/listings/listing_2.6.i: concurrency/manning/listings/listing_2.6.cpp.i
+
+.PHONY : concurrency/manning/listings/listing_2.6.i
+
+# target to preprocess a source file
+concurrency/manning/listings/listing_2.6.cpp.i:
+	$(MAKE) -f CMakeFiles\listing_2.6.dir\build.make CMakeFiles/listing_2.6.dir/concurrency/manning/listings/listing_2.6.cpp.i
+.PHONY : concurrency/manning/listings/listing_2.6.cpp.i
+
+concurrency/manning/listings/listing_2.6.s: concurrency/manning/listings/listing_2.6.cpp.s
+
+.PHONY : concurrency/manning/listings/listing_2.6.s
+
+# target to generate assembly for a file
+concurrency/manning/listings/listing_2.6.cpp.s:
+	$(MAKE) -f CMakeFiles\listing_2.6.dir\build.make CMakeFiles/listing_2.6.dir/concurrency/manning/listings/listing_2.6.cpp.s
+.PHONY : concurrency/manning/listings/listing_2.6.cpp.s
+
+concurrency/manning/listings/listing_2.8.obj: concurrency/manning/listings/listing_2.8.cpp.obj
+
+.PHONY : concurrency/manning/listings/listing_2.8.obj
+
+# target to build an object file
+concurrency/manning/listings/listing_2.8.cpp.obj:
+	$(MAKE) -f CMakeFiles\listing_2.8.dir\build.make CMakeFiles/listing_2.8.dir/concurrency/manning/listings/listing_2.8.cpp.obj
+.PHONY : concurrency/manning/listings/listing_2.8.cpp.obj
+
+concurrency/manning/listings/listing_2.8.i: concurrency/manning/listings/listing_2.8.cpp.i
+
+.PHONY : concurrency/manning/listings/listing_2.8.i
+
+# target to preprocess a source file
+concurrency/manning/listings/listing_2.8.cpp.i:
+	$(MAKE) -f CMakeFiles\listing_2.8.dir\build.make CMakeFiles/listing_2.8.dir/concurrency/manning/listings/listing_2.8.cpp.i
+.PHONY : concurrency/manning/listings/listing_2.8.cpp.i
+
+concurrency/manning/listings/listing_2.8.s: concurrency/manning/listings/listing_2.8.cpp.s
+
+.PHONY : concurrency/manning/listings/listing_2.8.s
+
+# target to generate assembly for a file
+concurrency/manning/listings/listing_2.8.cpp.s:
+	$(MAKE) -f CMakeFiles\listing_2.8.dir\build.make CMakeFiles/listing_2.8.dir/concurrency/manning/listings/listing_2.8.cpp.s
+.PHONY : concurrency/manning/listings/listing_2.8.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -196,12 +316,24 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... edit_cache
+	@echo ... listing_2.8
 	@echo ... main
+	@echo ... listing_2.6
 	@echo ... listing_1.1
+	@echo ... listing_2.5
 	@echo ... rebuild_cache
 	@echo ... concurrency/manning/listings/listing_1.1.obj
 	@echo ... concurrency/manning/listings/listing_1.1.i
 	@echo ... concurrency/manning/listings/listing_1.1.s
+	@echo ... concurrency/manning/listings/listing_2.5.obj
+	@echo ... concurrency/manning/listings/listing_2.5.i
+	@echo ... concurrency/manning/listings/listing_2.5.s
+	@echo ... concurrency/manning/listings/listing_2.6.obj
+	@echo ... concurrency/manning/listings/listing_2.6.i
+	@echo ... concurrency/manning/listings/listing_2.6.s
+	@echo ... concurrency/manning/listings/listing_2.8.obj
+	@echo ... concurrency/manning/listings/listing_2.8.i
+	@echo ... concurrency/manning/listings/listing_2.8.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
